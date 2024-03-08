@@ -1,0 +1,32 @@
+.carousel_container {
+  padding: 0% 3%;
+  margin: 4% 0;
+
+  user-select: none;
+}
+
+.image_container {
+  overflow: hidden;
+}
+.image_container img {
+  height: 80vh;
+  object-position: center;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.thumbs,
+.carousel-status,
+.legend {
+  display: none;
+}
+
+.carousel .control-dots li {
+  padding: 0;
+}
+
+.carousel .control-dots .dot {
+  margin: 0 4px !important;
+  width: 12px !important;
+  height: 12px !important;
+}
