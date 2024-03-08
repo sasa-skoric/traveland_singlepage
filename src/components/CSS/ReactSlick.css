@@ -8,10 +8,8 @@
 .react_slick {
   width: 80%;
   height: 80vh;
-
   margin: 0 auto;
   user-select: none;
-  border: 1px solid blue;
 }
 
 .image_container_slick .image {
@@ -20,7 +18,6 @@
   object-fit: cover;
   object-position: bottom;
   border-radius: 1rem;
-  border: 1px solid red;
 }
 
 .slick-prev:before,
