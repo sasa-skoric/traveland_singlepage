@@ -34,7 +34,7 @@
   position: absolute;
 
   right: 40px;
-  border: 1px solid green;
+
   padding-right: 39px;
   z-index: 999;
 }
@@ -42,7 +42,6 @@
   position: absolute;
   left: 40px;
   z-index: 999;
-  border: 1px solid red;
 }
 
 .slick-dots li button:before {
