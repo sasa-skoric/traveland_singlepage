@@ -11,6 +11,7 @@
 
   margin: 0 auto;
   user-select: none;
+  border: 1px solid blue;
 }
 
 .image_container_slick .image {
@@ -19,6 +20,7 @@
   object-fit: cover;
   object-position: bottom;
   border-radius: 1rem;
+  border: 1px solid red;
 }
 
 .slick-prev:before,
@@ -27,13 +29,20 @@
   font-size: 2rem;
   opacity: 100;
 }
+
 .slick-next {
   position: absolute;
-  right: 6%;
+
+  right: 40px;
+  border: 1px solid green;
+  padding-right: 39px;
+  z-index: 999;
 }
 .slick-prev {
-  left: 4.5%;
+  position: absolute;
+  left: 40px;
   z-index: 999;
+  border: 1px solid red;
 }
 
 .slick-dots li button:before {
@@ -43,9 +52,5 @@
 @media screen and (max-width: 720px) {
   .react_slick {
     width: 100%;
-  }
-
-  .slick-next {
-    right: 6.5%;
   }
 }
