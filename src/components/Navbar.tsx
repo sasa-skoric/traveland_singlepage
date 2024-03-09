@@ -81,7 +81,7 @@ const Navbar = () => {
             className="link"
             smooth={true}
             duration={500}
-            to="destination"
+            to="destinations"
             onClick={toggleMobNav}
           >
             <li>Destination</li>
@@ -90,7 +90,7 @@ const Navbar = () => {
           <Link
             className="link"
             smooth={true}
-            duration={500}
+            duration={600}
             to="travel"
             onClick={toggleMobNav}
           >
@@ -100,7 +100,7 @@ const Navbar = () => {
           <Link
             className="link"
             smooth={true}
-            duration={500}
+            duration={700}
             to="book"
             onClick={toggleMobNav}
           >
@@ -110,8 +110,8 @@ const Navbar = () => {
           <Link
             className="link"
             smooth={true}
-            duration={500}
-            to="carousel"
+            duration={800}
+            to="views"
             onClick={toggleMobNav}
           >
             <li>Views</li>
